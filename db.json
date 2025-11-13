@@ -1,0 +1,25 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Samsung Galaxy S21",
+            "price": 799,
+            "description": "Latest Samsung flagship smartphone with advanced features.",
+            "category": "smartphone"
+        },
+        {
+            "id": 2,
+            "name": "Apple iPhone 13",
+            "price": 999,
+            "description": "Newest iPhone model with improved performance and camera.",
+            "category": "smartphone"
+        },
+        {
+            "id": 3,
+            "name": "Laptop MSI Modern 14",
+            "price": 699,
+            "description": "Lightweight laptop with powerful performance for everyday tasks.",
+            "category": "laptop"
+        }
+    ]
+}

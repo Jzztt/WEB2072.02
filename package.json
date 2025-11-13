@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "vite",
+    "server": "json-server db.json -m ./node_modules/json-server-auth",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --fix --cache",
@@ -25,6 +26,8 @@
     "eslint": "^9.37.0",
     "eslint-plugin-vue": "~10.5.0",
     "globals": "^16.4.0",
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0",
     "prettier": "3.6.2",
     "vite": "^7.1.11",
     "vite-plugin-vue-devtools": "^8.0.3"
