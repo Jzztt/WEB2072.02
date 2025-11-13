@@ -1,5 +1,6 @@
 import ConditionalRendering from '@/components/ConditionalRendering.vue'
 import DataBinding from '@/components/DataBinding.vue'
+import ListRendering from '@/components/ListRendering.vue'
 import StateVue from '@/components/StateVue.vue'
 import About from '@/page/About.vue'
 import Home from '@/page/Home.vue'
@@ -11,6 +12,7 @@ const routes = [
   { path: '/state', component: StateVue },
   { path: '/data-binding', component: DataBinding },
   { path: '/conditional-rendering', component: ConditionalRendering },
+  { path: '/list-rendering', component: ListRendering },
 ]
 
 const router = createRouter({
