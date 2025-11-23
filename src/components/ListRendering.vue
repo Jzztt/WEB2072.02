@@ -2,7 +2,8 @@
   <div>
     <h1>List Rendering</h1>
     <ul>
-      <li v-for="value in arr">{{ value }}</li>
+      <p>{{ arr }}</p>
+      <li v-for="(value, index) in arr" :key="value">index: {{ index }}, value: {{ value }}</li>
     </ul>
     <table class="table">
       <thead>
@@ -17,13 +18,10 @@
       </thead>
       <tbody>
         <tr v-for="product in products" :key="product.id">
-          <td>{{ product.id }}</td>
-          <td>{{ product.name }}</td>
-          <td>{{ product.price }}</td>
-          <td>{{ product.description }}</td>
-          <td>{{ product.category }}</td>
+          <td v-for="value in product">{{ value }}</td>
           <td>
             <button class="btn btn-danger">Delete</button>
+            <button class="btn btn-warning">Update</button>
           </td>
         </tr>
       </tbody>
